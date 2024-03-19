@@ -337,3 +337,41 @@ img {
 .about__desc {
   opacity: 1;
 }
+
+/* Statistics */
+
+.statistics {
+  background: #95e1d3;
+}
+
+.statistics__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics__item {
+  flex: 1 1 0;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  padding: 80px 0;
+  color: #fff;
+}
+
+.statistics__item:last-child {
+  border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.statistics__count {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.statistics__text {
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
