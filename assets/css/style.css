@@ -248,6 +248,10 @@ hr {
   text-align: center;
 }
 
+.section_gray {
+  background-color: #f8f8f8;
+}
+
 .section__header {
   max-width: 960px;
   margin: 0 auto 40px;
@@ -557,4 +561,97 @@ img {
 .accordion__item_opened
 .accordion__arrow {
   background: url(../images/accordion/arrow-up.svg);
+}
+
+/* Reviews */
+
+.reviews {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.reviews__btn {
+  width: 20px;
+  height: 150px;
+  border: none;
+  outline: none;
+  display: block;
+  cursor: pointer;
+  background-color: inherit;
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  font-size: 0;
+  color: transparent;
+}
+
+.reviews__prev {
+  background-image: url(../images/reviews/arrow-left.svg);
+}
+
+.reviews__next {
+  background-image: url(../images/reviews/arrow-right.svg);
+}
+
+.reviews__btn:hover {
+  background-color: #f2f2f2;
+}
+
+.reviews__item {
+  position: relative;
+  min-height: 152px;
+  max-width: 1100px;
+  padding: 0 20px 0 210px;
+  text-align: justify;
+}
+
+.reviews__photo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+
+  border: 3px solid #95e1d3;
+  background: url(../images/reviews/speech.svg) no-repeat center;
+
+  left: 0;
+  top: 0;
+}
+
+.reviews__text {
+  font-family: "Roboto", serif;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #999;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.reviews__text::before {
+  content: '“';
+}
+
+.reviews__text::after {
+  content: '”';
+}
+
+.reviews__author {
+  /* position: relative; */
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+  /* padding-left: 70px; */
+}
+
+.reviews__author::before {
+  content: '';
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  vertical-align: middle;
+  margin-right: 10px;
 }
