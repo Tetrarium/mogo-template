@@ -739,3 +739,11 @@ hr {
   background: #f38181;
   color: #fff;
 }
+
+/* Logos */
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
