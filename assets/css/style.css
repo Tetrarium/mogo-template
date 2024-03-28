@@ -1265,3 +1265,20 @@ hr {
 .insta__link:hover {
   text-decoration: underline;
 }
+
+/* Copyright */
+
+.copyright {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 0;
+  background: #f8f8f8;
+}
+
+.copyright span {
+  color: #f38181;
+}
